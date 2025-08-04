@@ -27,7 +27,7 @@ header.forEach((head, ind) => {
 // })
 const bttn = document.querySelectorAll(".bttn");
 const sent = document.querySelectorAll(".sent");
-
+sent[0].style.display ="block" ;
 bttn.forEach((headd, nd) => {
  headd.addEventListener("click",() => {
 
