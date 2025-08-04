@@ -33,7 +33,7 @@ bttn.forEach((headd, nd) => {
 
     sent.forEach((dd, s) => {
         if(nd == s){
-            sent[nd].style.display = sent[nd].style.display == "block" ? "none": "block";
+             sent[nd].style.display ="block" ;
         }
         else{
             sent[s].style.display ="none";
