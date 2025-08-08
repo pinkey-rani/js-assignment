@@ -18,6 +18,7 @@
         padding: 10px;
         margin-bottom: 10px;
         .header{
+            
             padding: 10px;
             cursor: pointer;
             // &:hover{
@@ -26,15 +27,16 @@
             
         }
         .details{
+            max-height: auto ;
             border-top: 1px solid white;
-                padding: 10px;
-                display: none;
-
+            padding: 10px;
+            display: none;
+            transition: max-height 19s ease-in-out;
             }
     }
 }
 .dd2{
-    background: wheat;
+    background: rgb(255, 255, 255);
     width: 100%;
     height: 500px;
     padding: 30px 0px;
@@ -42,16 +44,17 @@
 .tabs{
     text-align: center;
     margin-top: 50px;
-    
+    color: #1e8bf966;
     button{
         color: rgb(0, 0, 0);
         font-size: 16px;
-        background-color: rgb(190, 245, 118);
+        background-color: #bef576;
         padding: 10px 20px;
         margin: 20px 10px;
         border-radius:10px ;
          &:hover {
         cursor: pointer;
+        
     }
     }
    
@@ -84,4 +87,8 @@
                 }
             }
         }
+}
+#time{
+    font-size: 50px;
+    text-align: center;
 }
